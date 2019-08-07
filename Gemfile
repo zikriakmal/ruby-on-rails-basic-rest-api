@@ -2,6 +2,18 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.5'
+gem "jwt"
+gem "active_model_serializers", "~> 0.10.7"
+gem "faker"
+gem "firebase"
+gem "simple_command"
+gem "rest-client"
+gem "will_paginate"
+gem "friendly_id"
+#Use background process asintak
+gem "sidekiq"
+
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
